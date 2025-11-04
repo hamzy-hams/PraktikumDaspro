@@ -13,7 +13,11 @@ public class arrayNilai12 {
         }
 
         for (int i = 0; i < 10; i++) {
-            System.err.println("Nilai akhir ke-" + (i + 1) + "adalah: " + nilaiAkhir[i]);
+            if (nilaiAkhir[i] > 70) {
+                System.out.println("Lulus!");
+            } else {
+                System.out.println("Tidak lulus!");
+            }
         }
     }
     
